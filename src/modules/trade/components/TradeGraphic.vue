@@ -109,18 +109,13 @@ export default {
           datafeed: this.datafeed,
           library_path: "/public/TV/charting_library/",
           autosize: true,
-          toolbar_bg: "#f6f6f8",
+          toolbar_bg: "#d9b93d",
           disabled_features: [
-            "left_toolbar",
             "header_symbol_search",
-            "header_indicators",
             "header_compare",
             "header_undo_redo",
             "header_interval_dialog_button",
             "show_interval_dialog_on_key_press",
-            "header_fullscreen_button",
-            "timeframes_toolbar",
-            "context_menus",
           ],
         });
 
@@ -143,7 +138,7 @@ export default {
         dataWindowProperties: {
           background: this.blockColorLocal,
           border: "rgba( 96, 96, 144, 1)",
-          font: "Verdana",
+          font: "Helvetica",
           fontBold: false,
           fontItalic: false,
           fontSize: 10,
