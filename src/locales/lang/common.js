@@ -1146,7 +1146,8 @@ const common = {
     wrong_card_number_format: "Incorrect card number format",
     enter_email: "Enter email address",
     not_valid_email: "Incorrect email address",
-    payouts_freezed: "Withdrawal frozen",
+    payouts_freezed:
+      "Withdrawals have been temporarily frozen for 24 hours due to a password change. You can try again after 24 hours.",
     check_max_limit: "Check the maximum limit",
     amount_field_needed: "Fill in the amount field",
     not_enough_fee: "Not enough funds for fee",
